@@ -1,0 +1,50 @@
+/*Declaramos las variables de los colores que vamos a necesitar para nuestra pagina*/
+:root{
+    --color_titulos:#f9f9f9;
+    --color_cuerpo:#f0d4e1;
+    --color_boton:#faf4b7;
+    --color_card:#cdf0ea;
+}
+body{
+    background-color: var(--color_cuerpo);
+}
+.container_grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.titulos{
+    color: var(--color_titulos);
+    margin-bottom: 5rem;
+    margin-left: 4rem;
+    font-size: 3.5rem;
+}
+.texto{
+    color: var(--color_titulos);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    width: 75%;
+    margin-bottom: 5rem;
+    margin-left: 2rem;
+}
+.btn{
+    text-decoration: none;
+    padding: 1rem 2.5rem;
+    background-color: var(--color_boton);
+    border-radius: .5rem;
+    color: var(--color_cuerpo);
+    margin-left: 2rem;
+}
+.imagen_centro{
+    width: 70%;
+    position: relative;
+    border-radius: 50%;
+    bottom: -9rem;
+    right: 10rem;
+}
+.contenedor_izquierdo{
+    background: url(../img/3.jpg);
+    background-repeat: no-repeat;
+    border-radius: .5rem;
+    background-size: 150%;
+    height: 55rem;
+}
